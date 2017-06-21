@@ -10,8 +10,8 @@ dat2<-read.table(file="C:/Users/sreynolds/Documents/R Files/df_hat.csv")
 boxplot(prob~type, dat)
 
 #p1_hat!=p1 AND p2_hat!=p2  (p1_hat+p2_hat=p3)
-boxplot(prob1~type, dat2)
-boxplot(prob2~type, dat2)
+boxplot(prob1~type, dat2, main="Trap 1")
+boxplot(prob2~type, dat2, main="Trap 2")
 
 
 
