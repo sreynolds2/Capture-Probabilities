@@ -2,9 +2,9 @@ sampling()
 sampling2()
 
 #READ IN DATA SAVED FROM VARIANCE IN CAPTURE PROBABILITY CODE BELOW
-probs<-read.table(file="C:/Users/sreynolds/Documents/R Files/CPtrials.csv")
-dat<-read.table(file="C:/Users/sreynolds/Documents/R Files/df.csv")
-dat2<-read.table(file="C:/Users/sreynolds/Documents/R Files/df_hat.csv")
+probs<-read.table(file="C:/Users/sreynolds/Documents/GitHub/Capture-Probabilities/CPtrials.csv")
+dat<-read.table(file="C:/Users/sreynolds/Documents/GitHub/Capture-Probabilities/df.csv")
+dat2<-read.table(file="C:/Users/sreynolds/Documents/GitHub/Capture-Probabilities/df_hat.csv")
 
 #p != TP p1+p2 NOR 1-(1-p1)(1-p2)
 boxplot(prob~type, dat)
